@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171b19">
+  <meta name="description" content="Tim van Helsdingen. Artist, developer & maker. Find my projects, videos, and other corners of the internet.">
+  <meta property="og:title" content="Tim van Helsdingen">
+  <meta property="og:description" content="Artist, developer & maker. A few things I'm working on, and where to find me.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://timvanhelsdingen.com/">
+  <link rel="canonical" href="https://timvanhelsdingen.com/">
+  <link rel="icon" href="/assets/tvh-logo.png" type="image/png">
+  <title>Tim van Helsdingen</title>
+  <style>
+    @font-face { font-family: Poppins; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/poppins-regular.ttf') format('truetype'); }
+    @font-face { font-family: Poppins; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/poppins-semibold.ttf') format('truetype'); }
+    :root { color-scheme: dark; --paper: #171b19; --ink: #f5f7f5; --muted: #a1ada6; --line: #35453c; --accent: #78c99b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--paper); color: var(--ink); font-family: Poppins, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+    body::before { content: ''; position: fixed; inset: 0; background: #1b2720; clip-path: polygon(72% 0, 100% 0, 100% 53%); z-index: -1; }
+    main { width: min(100% - 48px, 460px); margin: 0 auto; padding: clamp(30px, 7vh, 72px) 0 30px; }
+    header { margin-bottom: 30px; text-align: center; }
+    .logo { display: block; width: min(100%, 360px); height: auto; margin: 0 auto 22px; }
+    h1 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .intro { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.9; }
+    .intro strong { color: var(--ink); font-weight: 400; font-size: 15px; }
+    nav { display: grid; gap: 11px; }
+    a { color: inherit; text-decoration: none; }
+    .link { min-height: 78px; display: flex; align-items: center; gap: 17px; padding: 17px 20px; border: 1px solid var(--line); border-radius: 5px; background: #202923; transition: background .18s, border-color .18s, transform .18s; }
+    .link:hover { background: #29382e; border-color: #649176; transform: translateY(-2px); }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    .icon { width: 26px; height: 26px; flex: 0 0 26px; display: grid; place-items: center; }
+    .icon svg { width: 23px; height: 23px; fill: currentColor; }
+    .hellthings { font-size: 26px; font-weight: 800; font-family: Georgia, serif; }
+    .label { display: block; font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .detail { display: block; font-size: 12px; color: var(--muted); line-height: 1.4; }
+    .arrow { margin-left: auto; font-size: 23px; font-weight: 300; color: var(--muted); }
+    .featured { background: #185536; color: var(--ink); border-color: #29734d; min-height: 86px; }
+    .featured .detail, .featured .arrow { color: #bfd6c7; }
+    .featured:hover { background: #206842; border-color: #6cb68b; }
+    footer { text-align: center; border-top: 1px solid var(--line); margin-top: 28px; padding-top: 19px; font-size: 10px; letter-spacing: .025em; color: var(--muted); }
+    @media (prefers-reduced-motion: reduce) { .link { transition: none; } .link:hover { transform: none; } }
+    @media (max-width: 360px) { main { width: calc(100% - 36px); } .link { padding: 16px; gap: 13px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="logo" src="/assets/tvh-logo.png" width="400" height="150" alt="Tim van Helsdingen — CG Generalist / Houdini FX Artist">
+      <h1>Tim van Helsdingen</h1>
+      <p class="intro"><strong>Artist, developer &amp; maker.</strong><br>My projects, videos, and other corners of the internet.</p>
+    </header>
+    <nav aria-label="Find me online">
+      <a class="link featured" href="https://hellthings.com/">
+        <span class="icon hellthings" aria-hidden="true">h.</span>
+        <span><span class="label">Hellthings</span><span class="detail">Software, games &amp; VFX</span></span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="link" href="https://www.youtube.com/timvanhelsdingen">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1a3 3 0 0 0-2.1-2.2C17.6 4.4 12 4.4 12 4.4s-5.6 0-7.5.5a3 3 0 0 0-2.1 2.2A31 31 0 0 0 2 12a31 31 0 0 0 .4 4.9 3 3 0 0 0 2.1 2.2c1.9.5 7.5.5 7.5.5s5.6 0 7.5-.5a3 3 0 0 0 2.1-2.2A31 31 0 0 0 22 12a31 31 0 0 0-.4-4.9ZM10 15.5v-7l6 3.5-6 3.5Z"/></svg></span>
+        <span><span class="label">YouTube</span><span class="detail">Videos &amp; tutorials</span></span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="link" href="https://x.com/TvanHelsdingen">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.5 22H2.3l8.2-9.4L2.8 2h6.5l4.5 6.7L18.9 2Zm-1.1 18h1.7L8.3 3.9H6.5L17.8 20Z"/></svg></span>
+        <span><span class="label">Twitter / X</span><span class="detail">@TvanHelsdingen</span></span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="link" href="https://github.com/timvanhelsdingen">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 .8a11.3 11.3 0 0 0-3.6 22c.6.1.8-.2.8-.5v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.6 1.3 3.3 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.4 4.4 18.4 4.7 18.4 4.7c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.1c0 .3.2.7.8.5A11.3 11.3 0 0 0 12 .8Z"/></svg></span>
+        <span><span class="label">GitHub</span><span class="detail">Code &amp; open-source projects</span></span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+    </nav>
+    <footer>Tim van Helsdingen &nbsp;·&nbsp; Based in the Netherlands</footer>
+  </main>
+</body>
+</html>
