@@ -1,7 +1,7 @@
 # Tim van Helsdingen
 
 A small static links page for **timvanhelsdingen.com**, hosted as a TrueNAS Custom App.
-Dark charcoal and green, using the original logo and Poppins typography from the previous site.
+Dark charcoal and green, using an updated version of the original logo and Poppins typography from the previous site.
 No JavaScript, database, third-party requests, or analytics. Poppins is bundled locally
 under the SIL Open Font License in `assets/OFL.txt`.
 
@@ -47,4 +47,8 @@ if Docker images are pruned or Apps storage is migrated to a clean installation.
 ## Asset sources
 
 - Logo: `https://timvanhelsdingen.com/wp-content/uploads/2022/02/tvh_logo_1.png`
+- Current logo: `assets/tvh-logo-developer.png`, edited with the built-in imagegen tool.
+  Edit brief: retain Tim's name and green geometric identity; change the subtitle
+  to `DEVELOPER / CG GENERALIST` and keep the upper-right shape continuous.
+  The original `assets/tvh-logo.png` is retained.
 - Poppins regular and semibold: Google Fonts, Poppins v24. Font license: `assets/OFL.txt`.
